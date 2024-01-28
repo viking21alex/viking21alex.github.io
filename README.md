@@ -1,25 +1,41 @@
-## 个人主页
+# MkDocs 支持中文搜索
 
-好看的个人主页，个人主页源码，博客主页模板.**🉑️随意使用，无限制。**
+MkDocs 非常好用，但是不支持中文搜索，本项目就是为了解决中文搜索的问题。
 
-预览地址：[https://mrxur.github.io/home](https://mrxur.github.io/home)
+>  参考资料：[macOS 使用 mkdocs 生成文档及解决中文搜索问题](http://beautycss.net/2017/01/23/use-mkdocs-on-mac/)
 
-## 集成插件
+**问题描述：**
 
-- [x] [typed 打字机特效](https://github.com/mattboldt/typed.js/)
-- [x] [Aplayer 音乐播放插件](https://github.com/MoePlayer/APlayer)
-- [x] [Meting 强大的 Aplayer 辅助插件](https://github.com/metowolf/MetingJS)
-- [x] [不蒜子计数](http://busuanzi.ibruce.info/)
-- [x] [看板娘](https://github.com/stevenjoezhang/live2d-widget)
+1. mkdocs 生成 json 文件时将汉字转成了ascii 码字符；
+2. mkdocs 使用的搜索插件 lunr.js本身不支持中文；
 
-## 集成API
+>  本项目直接修改源码，直接解决了这两个问题。
 
-- [x] [一言](https://hitokoto.cn/)
-- [x] [今日诗词](https://www.jinrishici.com/)
-- [x] [随机图片](https://api.ixiaowai.cn/api/api.php) 
+**解决方案：**
 
-## 好玩的
+1. search.py 中的 generate_search_index 方法中的返回值改为：
 
-- [x] 点击冒点
-- [x] 雪花
-- [x] 搞怪标题栏 
+```
+return json.dumps(page_dicts, sort_keys=True, ensure_ascii=False, indent=4)
+```
+
+2. 使用修改后的 [lunr.js](https://github.com/codepiano/lunr.js/blob/master/lunr.js) 替换 lunr.min.js
+
+
+## 安装
+
+如果你已经安装了 mkdocs ，请先卸载掉：
+```
+$ pip uninstall mkdocs
+```
+
+然后 clone  本项目到本地，切换到项目根目录，再进行安装：
+```
+$ python setup.py install
+```
+
+## 使用
+
+用法跟源来的 MkDocs 一样
+
+ [MkDocs wiki](https://github.com/mkdocs/mkdocs/wiki) 
