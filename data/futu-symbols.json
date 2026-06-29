@@ -1,0 +1,923 @@
+{
+  "generatedAt": "2026-06-28T15:47:03.463Z",
+  "policy": "Futu OpenAPI is the only automated financial data source.",
+  "companies": {
+    "nvidia": {
+      "status": "supported",
+      "futuCode": "US.NVDA",
+      "exchange": "NASDAQ",
+      "ticker": "NVDA",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "amd": {
+      "status": "supported",
+      "futuCode": "US.AMD",
+      "exchange": "NASDAQ",
+      "ticker": "AMD",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "intel": {
+      "status": "supported",
+      "futuCode": "US.INTC",
+      "exchange": "NASDAQ",
+      "ticker": "INTC",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "broadcom": {
+      "status": "supported",
+      "futuCode": "US.AVGO",
+      "exchange": "NASDAQ",
+      "ticker": "AVGO",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "marvell": {
+      "status": "supported",
+      "futuCode": "US.MRVL",
+      "exchange": "NASDAQ",
+      "ticker": "MRVL",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "qualcomm": {
+      "status": "supported",
+      "futuCode": "US.QCOM",
+      "exchange": "NASDAQ",
+      "ticker": "QCOM",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "arm": {
+      "status": "supported",
+      "futuCode": "US.ARM",
+      "exchange": "NASDAQ",
+      "ticker": "ARM",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "synopsys": {
+      "status": "supported",
+      "futuCode": "US.SNPS",
+      "exchange": "NASDAQ",
+      "ticker": "SNPS",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "cadence": {
+      "status": "supported",
+      "futuCode": "US.CDNS",
+      "exchange": "NASDAQ",
+      "ticker": "CDNS",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "rambus": {
+      "status": "supported",
+      "futuCode": "US.RMBS",
+      "exchange": "NASDAQ",
+      "ticker": "RMBS",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "micron": {
+      "status": "supported",
+      "futuCode": "US.MU",
+      "exchange": "NASDAQ",
+      "ticker": "MU",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "applied-materials": {
+      "status": "supported",
+      "futuCode": "US.AMAT",
+      "exchange": "NASDAQ",
+      "ticker": "AMAT",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "lam-research": {
+      "status": "supported",
+      "futuCode": "US.LRCX",
+      "exchange": "NASDAQ",
+      "ticker": "LRCX",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "kla": {
+      "status": "supported",
+      "futuCode": "US.KLAC",
+      "exchange": "NASDAQ",
+      "ticker": "KLAC",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "teradyne": {
+      "status": "supported",
+      "futuCode": "US.TER",
+      "exchange": "NASDAQ",
+      "ticker": "TER",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "amkor": {
+      "status": "supported",
+      "futuCode": "US.AMKR",
+      "exchange": "NASDAQ",
+      "ticker": "AMKR",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "onto": {
+      "status": "supported",
+      "futuCode": "US.ONTO",
+      "exchange": "NYSE",
+      "ticker": "ONTO",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "axcelis": {
+      "status": "supported",
+      "futuCode": "US.ACLS",
+      "exchange": "NASDAQ",
+      "ticker": "ACLS",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "dell": {
+      "status": "supported",
+      "futuCode": "US.DELL",
+      "exchange": "NYSE",
+      "ticker": "DELL",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "hpe": {
+      "status": "supported",
+      "futuCode": "US.HPE",
+      "exchange": "NYSE",
+      "ticker": "HPE",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "supermicro": {
+      "status": "supported",
+      "futuCode": "US.SMCI",
+      "exchange": "NASDAQ",
+      "ticker": "SMCI",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "netapp": {
+      "status": "supported",
+      "futuCode": "US.NTAP",
+      "exchange": "NASDAQ",
+      "ticker": "NTAP",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "pure-storage": {
+      "status": "supported",
+      "futuCode": "US.PSTG",
+      "exchange": "NYSE",
+      "ticker": "PSTG",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "western-digital": {
+      "status": "supported",
+      "futuCode": "US.WDC",
+      "exchange": "NASDAQ",
+      "ticker": "WDC",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "seagate": {
+      "status": "supported",
+      "futuCode": "US.STX",
+      "exchange": "NASDAQ",
+      "ticker": "STX",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "cisco": {
+      "status": "supported",
+      "futuCode": "US.CSCO",
+      "exchange": "NASDAQ",
+      "ticker": "CSCO",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "arista": {
+      "status": "supported",
+      "futuCode": "US.ANET",
+      "exchange": "NYSE",
+      "ticker": "ANET",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "coherent": {
+      "status": "supported",
+      "futuCode": "US.COHR",
+      "exchange": "NYSE",
+      "ticker": "COHR",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "lumentum": {
+      "status": "supported",
+      "futuCode": "US.LITE",
+      "exchange": "NASDAQ",
+      "ticker": "LITE",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "corning": {
+      "status": "supported",
+      "futuCode": "US.GLW",
+      "exchange": "NYSE",
+      "ticker": "GLW",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "vertiv": {
+      "status": "supported",
+      "futuCode": "US.VRT",
+      "exchange": "NYSE",
+      "ticker": "VRT",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "eaton": {
+      "status": "supported",
+      "futuCode": "US.ETN",
+      "exchange": "NYSE",
+      "ticker": "ETN",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "equix": {
+      "status": "supported",
+      "futuCode": "US.EQIX",
+      "exchange": "NASDAQ",
+      "ticker": "EQIX",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "digital-realty": {
+      "status": "supported",
+      "futuCode": "US.DLR",
+      "exchange": "NYSE",
+      "ticker": "DLR",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "microsoft": {
+      "status": "supported",
+      "futuCode": "US.MSFT",
+      "exchange": "NASDAQ",
+      "ticker": "MSFT",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "amazon": {
+      "status": "supported",
+      "futuCode": "US.AMZN",
+      "exchange": "NASDAQ",
+      "ticker": "AMZN",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "alphabet": {
+      "status": "supported",
+      "futuCode": "US.GOOGL",
+      "exchange": "NASDAQ",
+      "ticker": "GOOGL",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "oracle": {
+      "status": "supported",
+      "futuCode": "US.ORCL",
+      "exchange": "NYSE",
+      "ticker": "ORCL",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "ibm": {
+      "status": "supported",
+      "futuCode": "US.IBM",
+      "exchange": "NYSE",
+      "ticker": "IBM",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "snowflake": {
+      "status": "supported",
+      "futuCode": "US.SNOW",
+      "exchange": "NYSE",
+      "ticker": "SNOW",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "mongodb": {
+      "status": "supported",
+      "futuCode": "US.MDB",
+      "exchange": "NASDAQ",
+      "ticker": "MDB",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "palantir": {
+      "status": "supported",
+      "futuCode": "US.PLTR",
+      "exchange": "NASDAQ",
+      "ticker": "PLTR",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "smic": {
+      "status": "supported",
+      "futuCode": "SH.688981",
+      "exchange": "SSE",
+      "ticker": "688981",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "huahong": {
+      "status": "supported",
+      "futuCode": "SH.688347",
+      "exchange": "SSE",
+      "ticker": "688347",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "naura": {
+      "status": "supported",
+      "futuCode": "SZ.002371",
+      "exchange": "SZSE",
+      "ticker": "002371",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "amec": {
+      "status": "supported",
+      "futuCode": "SH.688012",
+      "exchange": "SSE",
+      "ticker": "688012",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "acm-shanghai": {
+      "status": "supported",
+      "futuCode": "SH.688082",
+      "exchange": "SSE",
+      "ticker": "688082",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "piotech": {
+      "status": "supported",
+      "futuCode": "SH.688072",
+      "exchange": "SSE",
+      "ticker": "688072",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "kingsemi": {
+      "status": "supported",
+      "futuCode": "SH.688037",
+      "exchange": "SSE",
+      "ticker": "688037",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "hwatsing": {
+      "status": "supported",
+      "futuCode": "SH.688120",
+      "exchange": "SSE",
+      "ticker": "688120",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "jcet": {
+      "status": "supported",
+      "futuCode": "SH.600584",
+      "exchange": "SSE",
+      "ticker": "600584",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "tongfu": {
+      "status": "supported",
+      "futuCode": "SZ.002156",
+      "exchange": "SZSE",
+      "ticker": "002156",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "huatian": {
+      "status": "supported",
+      "futuCode": "SZ.002185",
+      "exchange": "SZSE",
+      "ticker": "002185",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "montage": {
+      "status": "supported",
+      "futuCode": "SH.688008",
+      "exchange": "SSE",
+      "ticker": "688008",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "gigadevice": {
+      "status": "supported",
+      "futuCode": "SH.603986",
+      "exchange": "SSE",
+      "ticker": "603986",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "cambricon": {
+      "status": "supported",
+      "futuCode": "SH.688256",
+      "exchange": "SSE",
+      "ticker": "688256",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "hygon": {
+      "status": "supported",
+      "futuCode": "SH.688041",
+      "exchange": "SSE",
+      "ticker": "688041",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "loongson": {
+      "status": "supported",
+      "futuCode": "SH.688047",
+      "exchange": "SSE",
+      "ticker": "688047",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "inspur": {
+      "status": "supported",
+      "futuCode": "SZ.000977",
+      "exchange": "SZSE",
+      "ticker": "000977",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "sugon": {
+      "status": "supported",
+      "futuCode": "SH.603019",
+      "exchange": "SSE",
+      "ticker": "603019",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "lenovo": {
+      "status": "supported",
+      "futuCode": "HK.00992",
+      "exchange": "HKEX",
+      "ticker": "0992",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "zte": {
+      "status": "supported",
+      "futuCode": "SZ.000063",
+      "exchange": "SZSE",
+      "ticker": "000063",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "accelink": {
+      "status": "supported",
+      "futuCode": "SZ.002281",
+      "exchange": "SZSE",
+      "ticker": "002281",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "innolight": {
+      "status": "supported",
+      "futuCode": "SZ.300308",
+      "exchange": "SZSE",
+      "ticker": "300308",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "eoptolink": {
+      "status": "supported",
+      "futuCode": "SZ.300502",
+      "exchange": "SZSE",
+      "ticker": "300502",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "shengyi": {
+      "status": "supported",
+      "futuCode": "SH.600183",
+      "exchange": "SSE",
+      "ticker": "600183",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "shennan": {
+      "status": "supported",
+      "futuCode": "SZ.002916",
+      "exchange": "SZSE",
+      "ticker": "002916",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "victory-giant": {
+      "status": "supported",
+      "futuCode": "SZ.300476",
+      "exchange": "SZSE",
+      "ticker": "300476",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "envicool": {
+      "status": "supported",
+      "futuCode": "SZ.002837",
+      "exchange": "SZSE",
+      "ticker": "002837",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "canatal": {
+      "status": "supported",
+      "futuCode": "SH.603912",
+      "exchange": "SSE",
+      "ticker": "603912",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "gds": {
+      "status": "supported",
+      "futuCode": "US.GDS",
+      "exchange": "NASDAQ",
+      "ticker": "GDS",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "vnet": {
+      "status": "supported",
+      "futuCode": "US.VNET",
+      "exchange": "NASDAQ",
+      "ticker": "VNET",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "alibaba": {
+      "status": "supported",
+      "futuCode": "HK.09988",
+      "exchange": "HKEX",
+      "ticker": "9988",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "tencent": {
+      "status": "supported",
+      "futuCode": "HK.00700",
+      "exchange": "HKEX",
+      "ticker": "0700",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "baidu": {
+      "status": "supported",
+      "futuCode": "HK.09888",
+      "exchange": "HKEX",
+      "ticker": "9888",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "tsmc": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2330",
+      "message": "富途不覆盖该交易所"
+    },
+    "umc": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2303",
+      "message": "富途不覆盖该交易所"
+    },
+    "vis": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TPEx",
+      "ticker": "5347",
+      "message": "富途不覆盖该交易所"
+    },
+    "mediatek": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2454",
+      "message": "富途不覆盖该交易所"
+    },
+    "alchip": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "3661",
+      "message": "富途不覆盖该交易所"
+    },
+    "global-unichip": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "3443",
+      "message": "富途不覆盖该交易所"
+    },
+    "phison": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TPEx",
+      "ticker": "8299",
+      "message": "富途不覆盖该交易所"
+    },
+    "silicon-motion": {
+      "status": "supported",
+      "futuCode": "US.SIMO",
+      "exchange": "NASDAQ",
+      "ticker": "SIMO",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "nanya": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2408",
+      "message": "富途不覆盖该交易所"
+    },
+    "winbond": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2344",
+      "message": "富途不覆盖该交易所"
+    },
+    "macronix": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2337",
+      "message": "富途不覆盖该交易所"
+    },
+    "ase": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "3711",
+      "message": "富途不覆盖该交易所"
+    },
+    "powertech": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "6239",
+      "message": "富途不覆盖该交易所"
+    },
+    "honhai": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2317",
+      "message": "富途不覆盖该交易所"
+    },
+    "quanta": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2382",
+      "message": "富途不覆盖该交易所"
+    },
+    "wistron": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "3231",
+      "message": "富途不覆盖该交易所"
+    },
+    "wiwynn": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "6669",
+      "message": "富途不覆盖该交易所"
+    },
+    "inventec": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2356",
+      "message": "富途不覆盖该交易所"
+    },
+    "gigabyte": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2376",
+      "message": "富途不覆盖该交易所"
+    },
+    "delta": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2308",
+      "message": "富途不覆盖该交易所"
+    },
+    "accton": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "TWSE",
+      "ticker": "2345",
+      "message": "富途不覆盖该交易所"
+    },
+    "kioxia": {
+      "status": "supported",
+      "futuCode": "JP.285A",
+      "exchange": "TSE",
+      "ticker": "285A",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "tokyo-electron": {
+      "status": "supported",
+      "futuCode": "JP.8035",
+      "exchange": "TSE",
+      "ticker": "8035",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "advantest": {
+      "status": "supported",
+      "futuCode": "JP.6857",
+      "exchange": "TSE",
+      "ticker": "6857",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "disco": {
+      "status": "supported",
+      "futuCode": "JP.6146",
+      "exchange": "TSE",
+      "ticker": "6146",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "lasertec": {
+      "status": "supported",
+      "futuCode": "JP.6920",
+      "exchange": "TSE",
+      "ticker": "6920",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "screen": {
+      "status": "supported",
+      "futuCode": "JP.7735",
+      "exchange": "TSE",
+      "ticker": "7735",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "renesas": {
+      "status": "supported",
+      "futuCode": "JP.6723",
+      "exchange": "TSE",
+      "ticker": "6723",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "socionext": {
+      "status": "supported",
+      "futuCode": "JP.6526",
+      "exchange": "TSE",
+      "ticker": "6526",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "ibiden": {
+      "status": "supported",
+      "futuCode": "JP.4062",
+      "exchange": "TSE",
+      "ticker": "4062",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "fujikura": {
+      "status": "supported",
+      "futuCode": "JP.5803",
+      "exchange": "TSE",
+      "ticker": "5803",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "nec": {
+      "status": "supported",
+      "futuCode": "JP.6701",
+      "exchange": "TSE",
+      "ticker": "6701",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "fujitsu": {
+      "status": "supported",
+      "futuCode": "JP.6702",
+      "exchange": "TSE",
+      "ticker": "6702",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "samsung": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "KRX",
+      "ticker": "005930",
+      "message": "富途不覆盖该交易所"
+    },
+    "sk-hynix": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "KRX",
+      "ticker": "000660",
+      "message": "富途不覆盖该交易所"
+    },
+    "hanmi": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "KRX",
+      "ticker": "042700",
+      "message": "富途不覆盖该交易所"
+    },
+    "wonik-ips": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "KOSDAQ",
+      "ticker": "240810",
+      "message": "富途不覆盖该交易所"
+    },
+    "naver": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "KRX",
+      "ticker": "035420",
+      "message": "富途不覆盖该交易所"
+    },
+    "samsung-sds": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "KRX",
+      "ticker": "018260",
+      "message": "富途不覆盖该交易所"
+    },
+    "asml": {
+      "status": "supported",
+      "futuCode": "US.ASML",
+      "exchange": "NASDAQ",
+      "ticker": "ASML",
+      "message": "可通过 Futu OpenAPI 同步"
+    },
+    "asm-international": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Euronext Amsterdam",
+      "ticker": "ASM",
+      "message": "富途不覆盖该交易所"
+    },
+    "besi": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Euronext Amsterdam",
+      "ticker": "BESI",
+      "message": "富途不覆盖该交易所"
+    },
+    "infineon": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "XETRA",
+      "ticker": "IFX",
+      "message": "富途不覆盖该交易所"
+    },
+    "stmicro": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Euronext Paris",
+      "ticker": "STMPA",
+      "message": "富途不覆盖该交易所"
+    },
+    "soitec": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Euronext Paris",
+      "ticker": "SOI",
+      "message": "富途不覆盖该交易所"
+    },
+    "aixtron": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "XETRA",
+      "ticker": "AIXA",
+      "message": "富途不覆盖该交易所"
+    },
+    "vat": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "SIX",
+      "ticker": "VACN",
+      "message": "富途不覆盖该交易所"
+    },
+    "nokia": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Nasdaq Helsinki",
+      "ticker": "NOKIA",
+      "message": "富途不覆盖该交易所"
+    },
+    "ericsson": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Nasdaq Stockholm",
+      "ticker": "ERIC B",
+      "message": "富途不覆盖该交易所"
+    },
+    "schneider": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Euronext Paris",
+      "ticker": "SU",
+      "message": "富途不覆盖该交易所"
+    },
+    "abb": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "SIX",
+      "ticker": "ABBN",
+      "message": "富途不覆盖该交易所"
+    },
+    "legrand": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Euronext Paris",
+      "ticker": "LR",
+      "message": "富途不覆盖该交易所"
+    },
+    "siemens-energy": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "XETRA",
+      "ticker": "ENR",
+      "message": "富途不覆盖该交易所"
+    },
+    "ovhcloud": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Euronext Paris",
+      "ticker": "OVH",
+      "message": "富途不覆盖该交易所"
+    },
+    "sap": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "XETRA",
+      "ticker": "SAP",
+      "message": "富途不覆盖该交易所"
+    },
+    "dassault": {
+      "status": "unsupported-market",
+      "futuCode": null,
+      "exchange": "Euronext Paris",
+      "ticker": "DSY",
+      "message": "富途不覆盖该交易所"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="覆盖材料、芯片、计算、存储、网络、能源、软件、模型和应用的 AI 全产业链知识图谱。">
+  <title>Alex's AI CHAIN MAP</title>
+  <link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="Alex's AI CHAIN MAP 首页">
+      <span class="brand-mark">AI</span>
+      <span><b>Alex's AI CHAIN MAP</b><small>全产业链知识图谱</small></span>
+    </a>
+    <nav class="nav" aria-label="主要导航">
+      <button class="nav-btn active" data-view="overview">产业全景</button>
+      <button class="nav-btn" data-view="relations">关系探索</button>
+      <button class="nav-btn" data-view="nodes">产业节点</button>
+      <button class="nav-btn" data-view="companies">上市公司</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <p class="eyebrow">FROM MATERIALS TO INTELLIGENCE</p>
+      <h1>看清 AI 产业如何连接、产出与竞争</h1>
+      <p class="hero-copy">从半导体材料、GPU、SSD 和高速网络，到数据中心电力、模型与行业应用。每个节点都可追踪技术、产品、上游投入、下游用途和全球上市公司。</p>
+    </div>
+    <div class="hero-stats" id="heroStats" aria-label="知识库统计"></div>
+  </section>
+
+  <section class="concepts" aria-label="概念说明">
+    <article><span>01</span><h2>产业地图</h2><p>描述价值如何从材料、设备和芯片，流向计算、存储、网络、模型与应用；它是一张关系网，不是简单的直线层级。</p></article>
+    <article><span>02</span><h2>产业节点</h2><p>一个可独立研究的产品、技术或服务，例如 NAND Flash、企业级 SSD、AI 服务器或液冷系统。</p></article>
+    <article><span>03</span><h2>瓶颈</h2><p>节点的一项研究属性，用于标记供应集中度、技术壁垒与替代难度；并非所有产业节点都是“卡口”。</p></article>
+  </section>
+
+  <section class="workspace">
+    <div class="toolbar" id="toolbar">
+      <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="搜索节点、技术、产品、公司或代码…" autocomplete="off"></label>
+      <div class="filters" id="filters"></div>
+      <span class="result-count" id="resultCount"></span>
+    </div>
+    <main id="app" tabindex="-1">
+      <div class="loading">正在构建产业关系图…</div>
+    </main>
+  </section>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="详情" aria-hidden="true"></aside>
+
+  <footer>
+    <p>数据核验日期：2026-06-28 · 未披露数据不作估算 · 仅供产业研究，不构成投资建议</p>
+  </footer>
+
+  <script src="data/catalog.js"></script>
+  <script src="data/financials.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
