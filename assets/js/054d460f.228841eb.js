@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_knowledge_base=self.webpackChunkdocusaurus_knowledge_base||[]).push([[16574],{61017(s,e,u){u.r(e),u.d(e,{default:()=>o});var a=u(74848);u(96540);var d=u(56347);function o(){return(0,a.jsx)(d.rd,{to:"/docs/how-to-ask-questions-the-smart-way-3d26283cbd"})}}}]);
